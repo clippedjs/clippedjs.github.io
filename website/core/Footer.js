@@ -28,27 +28,18 @@ class Footer extends React.Component {
                 this.props.config.baseUrl +
                 'docs/' +
                 this.props.language +
-                '/doc1.html'
+                '/setup.html'
               }>
-              Getting Started (or other categories)
+              Getting Started
             </a>
             <a
               href={
                 this.props.config.baseUrl +
                 'docs/' +
                 this.props.language +
-                '/doc2.html'
+                '/api-instance.html'
               }>
-              Guides (or other categories)
-            </a>
-            <a
-              href={
-                this.props.config.baseUrl +
-                'docs/' +
-                this.props.language +
-                '/doc3.html'
-              }>
-              API Reference (or other categories)
+              API reference
             </a>
           </div>
           <div>
@@ -60,19 +51,16 @@ class Footer extends React.Component {
               User Showcase
             </a>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="http://stackoverflow.com/questions/tagged/clippedjs"
               target="_blank">
               Stack Overflow
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a href="https://twitter.com/" target="_blank">
-              Twitter
-            </a>
+            <a href="https://gitter.im/clippedjs">Gitter Chat</a>
           </div>
           <div>
             <h5>More</h5>
             <a href={this.props.config.baseUrl + 'blog'}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/clippedjs/clipped">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}

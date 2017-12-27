@@ -37,9 +37,9 @@ class HomeSplash extends React.Component {
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">
             <div className="projectLogo">
-              <img src={siteConfig.baseUrl + 'img/docusaurus.svg'} />
             </div>
             <div className="inner">
+              <img src={siteConfig.baseUrl + 'img/logo.svg'} style={{maxWidth: '5rem'}} />
               <h2 className="projectTitle">
                 {siteConfig.title}
                 <small>{siteConfig.tagline}</small>
@@ -47,25 +47,13 @@ class HomeSplash extends React.Component {
               <div className="section promoSection">
                 <div className="promoRow">
                   <div className="pluginRowBlock">
-                    <Button href="#try">Try It Out</Button>
-                    <Button
-                      href={
+                    {/* <Button href="#try">Try It Out</Button> */}
+                    <Button href={
                         siteConfig.baseUrl +
                         'docs/' +
                         this.props.language +
-                        '/doc1.html'
-                      }>
-                      Example Link
-                    </Button>
-                    <Button
-                      href={
-                        siteConfig.baseUrl +
-                        'docs/' +
-                        this.props.language +
-                        '/doc2.html'
-                      }>
-                      Example Link 2
-                    </Button>
+                        '/setup.html'
+                      }>Get started</Button>
                   </div>
                 </div>
               </div>
@@ -96,19 +84,17 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          <Container padding={['bottom', 'top']}>
+          {/* <Container padding={['bottom', 'top']}>
             <GridBlock
               align="center"
               contents={[
                 {
                   content: 'This is the content of my feature',
-                  image: siteConfig.baseUrl + 'img/docusaurus.svg',
                   imageAlign: 'top',
                   title: 'Feature One',
                 },
                 {
                   content: 'The content of my second feature',
-                  image: siteConfig.baseUrl + 'img/docusaurus.svg',
                   imageAlign: 'top',
                   title: 'Feature Two',
                 },
@@ -129,20 +115,18 @@ class Index extends React.Component {
               contents={[
                 {
                   content: 'Talk about learning how to use this',
-                  image: siteConfig.baseUrl + 'img/docusaurus.svg',
                   imageAlign: 'right',
                   title: 'Learn How',
                 },
               ]}
             />
-          </Container>
+          </Container> */}
 
           <Container padding={['bottom', 'top']} id="try">
             <GridBlock
               contents={[
                 {
-                  content: 'Talk about trying this out',
-                  image: siteConfig.baseUrl + 'img/docusaurus.svg',
+                  content: '```js\n npm i -g clipped\n``` ',
                   imageAlign: 'left',
                   title: 'Try it Out',
                 },
@@ -150,19 +134,18 @@ class Index extends React.Component {
             />
           </Container>
 
-          <Container padding={['bottom', 'top']} background="dark">
+          {/* <Container padding={['bottom', 'top']} background="dark">
             <GridBlock
               contents={[
                 {
                   content:
                     'This is another description of how this project is useful',
-                  image: siteConfig.baseUrl + 'img/docusaurus.svg',
                   imageAlign: 'right',
                   title: 'Description',
                 },
               ]}
             />
-          </Container>
+          </Container> */}
 
           <div className="productShowcaseSection paddingBottom">
             <h2>{"Who's Using This?"}</h2>

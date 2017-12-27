@@ -4,10 +4,15 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "Make configuration hurt only once",
+    "api-hook": "Hook",
+    "api-instance": "Instance",
     "setup": "Installation and Setup",
-    "Getting Started": "Getting Started",
+    "use-preset": "Using presets",
+    "Docs": "Docs",
     "GitHub": "GitHub",
     "Blog": "Blog",
+    "Getting Started": "Getting Started",
+    "API": "API",
     "First Category": "First Category"
   },
   "pages-strings": {

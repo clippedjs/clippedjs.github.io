@@ -17,11 +17,11 @@ const users = [
 
 const siteConfig = {
   title: 'Clipped' /* title for your website */,
-  tagline: 'Make configuration hurt only once',
+  tagline: 'Make configuration hurt once only',
   url: 'https://clippedjs.github.io' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   headerLinks: [
-    {doc: 'setup', label: 'Getting Started'},
+    {doc: 'setup', label: 'Docs'},
     // {doc: 'api', label: 'API'},
     // {page: 'faq', label: 'FAQ'},
     { href: "https://github.com/clippedjs/clipped", label: "GitHub" },

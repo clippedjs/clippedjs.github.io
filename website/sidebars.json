@@ -1,6 +1,13 @@
 {
   "docs": {
-    "Getting Started": ["setup"]
+    "Getting Started": [
+      "setup",
+      "use-preset"
+    ],
+    "API": [
+      "api-instance",
+      "api-hook"
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
