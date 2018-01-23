@@ -1,8 +1,12 @@
-language: node_js
-
 branches:
   only:
     - develop
+
+language: node_js
+
+sudo: false
+
+node_js: 8
 
 cache:
   yarn: true
@@ -10,16 +14,7 @@ cache:
     - ~/.npm
     - node_modules
 
-notifications:
-  email: false
-
-node_js:
-  - '8'
-
 script:
-  - git config --global user.name "${GH_NAME}"
-  - git config --global user.email "${GH_EMAIL}"
-  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - cd website && git clone --branch master "https://github.com/${TRAVIS_REPO_SLUG}.git" deploy
-  - yarn && yarn run build && cp -rf "build/${GH_PROJECT}/." deploy
-  - cd deploy && echo $(pwd) && ls -al && git add --all . && git commit --message "Automatic update from travis-ci" && git push "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:master
+  # - npm run lint:js
+  # - npm run lint:md
+  - npm run build:gh
