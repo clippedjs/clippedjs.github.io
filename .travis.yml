@@ -1,7 +1,6 @@
 branches:
   only:
     - develop
-    - /^greenkeeper/.*$/
 
 language: node_js
 
