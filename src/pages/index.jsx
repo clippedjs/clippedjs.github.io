@@ -21,7 +21,11 @@ class Index extends React.Component {
             <Hero>
               <ProjectName>{config.siteTitle}</ProjectName>
               <h5 style={{marginTop: '5px', marginBottom: '25px'}}>{config.siteDescription}</h5>
-              <CtaButton to={'/hello-world'}>Get started</CtaButton>            
+              <CtaButton to={'/hello-world'}>Get started</CtaButton>
+              <div />
+              <ImageContainer>
+                <img alt="clipped.config.js" src="/carbon.png" style={{maxWidth: '800px'}} />
+              </ImageContainer>
             </Hero>
           </IndexHeadContainer>
         </main>
@@ -31,6 +35,19 @@ class Index extends React.Component {
 }
 
 export default Index;
+
+const ImageContainer = styled.div`
+  max-height:300px;
+  overflow:hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all .5s ease;
+  &:hover {
+    max-height: 350px;
+  }
+`
 
 const IndexHeadContainer = styled.div`
   // background: ${props => props.theme.brand};
@@ -50,9 +67,10 @@ const ProjectName = styled.h1`
 
 const Hero = styled.div`
   padding: 50px 0;
+  min-width: 100%;
   & > h1 {
     font-size: 12rem;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Leckerli One';
     letter-spacing: 0.2rem;    
     // margin-bottom: 5px;

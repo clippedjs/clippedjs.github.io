@@ -14,7 +14,7 @@ const NavContainer = styled.div`
   
   .nav-link {
     font-size: 1.6rem;
-    margin-right: 50px;
+    margin-right: 30px;
     font-weight: 600;
     color: ${props => props.theme.brand};
     padding: 4px 0.7rem 0;
@@ -47,7 +47,7 @@ class Navigation extends React.Component {
         <div style={{flex: 1}} />
         <section>
           <Link className='nav-link' to='/hello-world' >Docs</Link>
-          <Link className='nav-link' to='/about' >About</Link>
+          {/* <Link className='nav-link' to='/about' >About</Link> */}
         </section>
         <span><UserLinks /></span>
       </NavContainer>

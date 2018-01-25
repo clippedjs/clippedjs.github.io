@@ -33,12 +33,17 @@ const ButtonContainer = styled.div`
   transition: all 0.15s ease;
   box-sizing: border-box;
   border: 1px solid ${props => props.theme.brand};
-  color: ${props => props.theme.brand};
+  // color: ${props => props.theme.brand};
+  color: white;
+  // background: linear-gradient(120deg, ${props => props.theme.brand} 50%, #004E95 50%);
+  background: ${props => props.theme.brand};
+  box-shadow: 0 2px 30px 4px rgba(69, 115, 222, 0.4) !important;  
   display: inline-block;
-  transition: all .3s ease;
+  transition: all .5s ease;
   
   &:hover {
     color: white;
-    background: ${props => props.theme.brand};
+    transform: scale(1.01);
+    box-shadow: 0 2px 35px 7px rgba(69, 115, 222, 0.6) !important;
   }
 `
