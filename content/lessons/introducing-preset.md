@@ -51,4 +51,4 @@ module.exports = async clipped => {
 }
 ```
 
-For more about the API of `clipped` and how to use `config` chain,  check out [API](/clipped-api) and [collection-chain](/collection-chain) in later sections.
+For more about the API of `clipped` and how to use `config` chain,  check out [API](/api#preset) and [collection-chain](/collection-chain) in later sections.

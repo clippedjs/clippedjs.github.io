@@ -19,6 +19,11 @@ const NavContainer = styled.div`
     color: ${props => props.theme.brand};
     padding: 4px 0.7rem 0;
   }
+
+  .logo-link {
+    font-family: 'Leckerli One';
+    font-size: 2rem;
+  }
   
   @media screen and (max-width: 600px) {
     display: flex;
@@ -42,11 +47,11 @@ class Navigation extends React.Component {
     return (
       <NavContainer>
         <section>        
-          <Link className='nav-link' to='/' >Clipped.js</Link>        
+          <Link className="nav-link logo-link" to='/'>Clipped.js</Link>        
         </section>        
         <div style={{flex: 1}} />
         <section>
-          <Link className='nav-link' to='/hello-world' >Docs</Link>
+          <Link className='nav-link' to='/hello-world'>Docs</Link>
           {/* <Link className='nav-link' to='/about' >About</Link> */}
         </section>
         <span><UserLinks /></span>

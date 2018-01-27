@@ -7,6 +7,8 @@ tags:
     - guide
 ---
 
+##### "Stronger" npm script
+
 The `config` property would be useless if we do not actually use it. Clipped provides hooks for using final config.
 
 For example if you want to it print hello when you run `clipped hello`, you can add this line:
@@ -52,4 +54,4 @@ module.exports = async clipped => {
     })
 ```
 
-For full reference of action hook, check out [API](/clipped-api) in later sections
+For full reference of action hook, check out [API](/api#hook) in later sections

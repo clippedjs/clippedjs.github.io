@@ -34,7 +34,7 @@ class UserLinks extends Component {
   render() {
     return (
       <Container className="user-links">
-        <UserIcon href="https://github.com/clippedjs/clipped" target="_blank">
+        <UserIcon href="https://github.com/clippedjs/clipped" target="_blank" title="Fork me!">
           <FaGithubAlt style={iconStyle} />
         </UserIcon>
       </Container>

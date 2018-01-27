@@ -20,6 +20,7 @@ table, th, td {
 ***********/
 html {
     font-size: 10px;
+    /* line-height: 1.58; */
 }
 
 body,
@@ -27,9 +28,30 @@ h1, h2, h3, h4, h5, h6,
 p, a,
 li, ul {
     font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
+    font-size: 1.2em;
+    font-weight: 400;
     /* letter-spacing: 0.1em; */
+}
+
+h1 {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+blockquote {
+    border-left: rgb(255, 102, 102);
+    padding: 10px 24px 10px 30px;
+    margin: 1em 0;
+    max-width: 500px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    background-color: rgb(248, 248, 248);
+    position: relative;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+blockquote > p {
+    margin: 0
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl {
@@ -40,12 +62,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600
 }
 
+ul {
+    margin-left: 2rem;
+}
+
 li, li > *, dt, dd {
     margin: 10px 0;
 }
 
 pre, code {
     font-family: 'Space Mono', monospace;
+    font-weight: 600;
 }
 
 h1 {font-size: 4rem;}
@@ -56,7 +83,7 @@ h5 {font-size: 2rem;}
 h6 {font-size: 1.6rem;}
 
 p, a, li, dt, dd, tr, th {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 a {

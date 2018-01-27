@@ -20,11 +20,11 @@ class Index extends React.Component {
           <IndexHeadContainer>
             <Hero>
               <ProjectName>{config.siteTitle}</ProjectName>
-              <h5 style={{marginTop: '5px', marginBottom: '25px'}}>{config.siteDescription}</h5>
+              <h5 style={{marginTop: '5px', marginBottom: '25px'}}>{config.siteDescription} ;)</h5>
               <CtaButton to={'/hello-world'}>Get started</CtaButton>
               <div />
               <ImageContainer>
-                <img alt="clipped.config.js" src="/carbon.png" style={{maxWidth: '800px'}} />
+                <img alt="clipped.config.js" src="/carbon.png" />
               </ImageContainer>
             </Hero>
           </IndexHeadContainer>
@@ -37,7 +37,7 @@ class Index extends React.Component {
 export default Index;
 
 const ImageContainer = styled.div`
-  max-height:300px;
+  max-height:320px;
   overflow:hidden;
   position: absolute;
   left: 0;
@@ -47,6 +47,13 @@ const ImageContainer = styled.div`
   &:hover {
     max-height: 350px;
   }
+
+  & > img {
+    max-width: 800px;
+    @media screen and (max-width: 600px) {
+      max-width: 100%;
+    }
+  }
 `
 
 const IndexHeadContainer = styled.div`
@@ -55,14 +62,16 @@ const IndexHeadContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 100px;
   text-align: center;
   height: fit-available;
   overflow-y: none;
 `
 
 const ProjectName = styled.h1`
-  color: ${props => props.theme.brand}
+  border-bottom: none;
+  color: ${props => props.theme.brand};
+  max-width: 100%;
 `
 
 const Hero = styled.div`

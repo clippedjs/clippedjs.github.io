@@ -6,6 +6,7 @@
 
 .gatsby-highlight {
     padding-bottom: 30px;
+    max-width: 600px;
 }
 
 code[class*="language-"],
@@ -13,6 +14,7 @@ pre[class*="language-"] {
     color: #f8f8f2;
     background: none;
     font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
     text-align: left;
     white-space: pre;
     word-spacing: normal;
@@ -43,10 +45,13 @@ pre[class*="language-"] {
 }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
+:not(pre) > code[class*="language-"],
+:not(pre) > code
+{
     padding: .1em;
     border-radius: .3em;
     white-space: normal;
+    background-color: #efefef
 }
 
 .token.comment,

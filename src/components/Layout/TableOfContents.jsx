@@ -47,7 +47,7 @@ class TableOfContents extends React.Component {
       chapter.forEach(node => {
         chapterLessons.push(
           <LessonContainer>
-            <Link to={node.path}>
+            <Link to={node.path} activeClassName="chaptor--active">
               <li>
                 <span>
                   <p>{node.lessonNumber}. &nbsp;</p>
@@ -61,7 +61,7 @@ class TableOfContents extends React.Component {
       listItems.push(
         <li className='chapter'>
           <h5 className='tocHeading'>
-            {chapterTitles[idx].toUpperCase()}
+            {chapterTitles[idx]}
           </h5>
           <ul className='chapterItems'>
             {chapterLessons}
@@ -85,11 +85,16 @@ class TableOfContents extends React.Component {
 
 const TableOfContentsContainer = styled.div`
   padding: ${props => props.theme.sitePadding};
+  box-shadow: 6px 0 6px rgba(0,0,0,.1);
+  min-height: 100%;
 
   & > ul, .chapterItems {
     list-style: none;
     padding: 0;
     margin: 0;
+    & > div {
+      margin: 0.7rem;
+    }
   }
   
   p, h6 {
@@ -99,9 +104,9 @@ const TableOfContentsContainer = styled.div`
   }
   
   .tocHeading {
-     font-weight: 200;
+    //  font-weight: 200;
      color: ${props => props.theme.brand};
-     margin-bottom: 10px;
+     margin: 15px 0;
   }
 `
 
@@ -120,6 +125,11 @@ const LessonContainer = styled.div`
         // border-bottom: 1px solid black;
       }
     }
+  }
+  & a.chaptor--active > li * {
+    color: ${props => props.theme.brand};
+    transform: scale(1.01);
+    font-weight: 500;
   }
 `
 
