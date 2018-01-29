@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---tags-guide": [
-      "path---tags-guide-7f7bdb06ed2dfcccf975.js",
-      "path---tags-guide-7f7bdb06ed2dfcccf975.js.map"
+      "path---tags-guide-1da4a0046b06d2f4a75c.js",
+      "path---tags-guide-1da4a0046b06d2f4a75c.js.map"
     ],
     "path---tags-other": [
       "path---tags-other-f070efcd65c53db0824b.js",
@@ -13,16 +13,20 @@
       "path---tags-programming-fb4560a04bf47d19d9c2.js.map"
     ],
     "path---action-hook": [
-      "path---action-hook-ed388ddb7bb1f8f2ced9.js",
-      "path---action-hook-ed388ddb7bb1f8f2ced9.js.map"
+      "path---action-hook-b6ef4046a7b8ef132b3f.js",
+      "path---action-hook-b6ef4046a7b8ef132b3f.js.map"
     ],
     "path---api": [
-      "path---api-002ad964a8efd2e7e220.js",
-      "path---api-002ad964a8efd2e7e220.js.map"
+      "path---api-74dafec96236ddd5aba6.js",
+      "path---api-74dafec96236ddd5aba6.js.map"
     ],
     "path---": [
       "path----6611940bd40871b680a6.js",
       "path----6611940bd40871b680a6.js.map"
+    ],
+    "path---jointed-js-api": [
+      "path---jointed-js-api-114eef73168d0b0b35c6.js",
+      "path---jointed-js-api-114eef73168d0b0b35c6.js.map"
     ],
     "component---src-layouts-index-jsx": [
       "component---src-layouts-index-jsx-d80d0f907f9955d8fd19.js",
@@ -45,20 +49,20 @@
       "component---src-templates-category-jsx-3a50fee79b9519c47f96.js.map"
     ],
     "path---introducing-preset": [
-      "path---introducing-preset-4bb4f8fb99a6bbdb2037.js",
-      "path---introducing-preset-4bb4f8fb99a6bbdb2037.js.map"
+      "path---introducing-preset-1e63a6e041903a468fee.js",
+      "path---introducing-preset-1e63a6e041903a468fee.js.map"
     ],
     "path---index": [
-      "path---index-05cfb15dc58cf1c433f7.js",
-      "path---index-05cfb15dc58cf1c433f7.js.map"
+      "path---index-04666bff38ddd635628b.js",
+      "path---index-04666bff38ddd635628b.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-591a6fd1ccfe6087bf39.js",
       "component---src-pages-about-jsx-591a6fd1ccfe6087bf39.js.map"
     ],
     "path---hello-world": [
-      "path---hello-world-95446230bf3d45e06981.js",
-      "path---hello-world-95446230bf3d45e06981.js.map"
+      "path---hello-world-9e4e132515880f7311f4.js",
+      "path---hello-world-9e4e132515880f7311f4.js.map"
     ],
     "path---post-one": [
       "path---post-one-c5ce1d4b08a57ad8cf05.js",
@@ -93,12 +97,16 @@
       "component---src-pages-index-jsx-a04c55d3996bcf374311.js.map"
     ],
     "app": [
-      "app-47e3a035dc4651f9ba2c.js",
-      "app-47e3a035dc4651f9ba2c.js.map"
+      "app-bc555b3e73f5289a75ae.js",
+      "app-bc555b3e73f5289a75ae.js.map"
     ],
     "path---404": [
       "path---404-586c7e095e534a3909ec.js",
       "path---404-586c7e095e534a3909ec.js.map"
+    ],
+    "path---why-use-jointed": [
+      "path---why-use-jointed-023a37542bb246e028a6.js",
+      "path---why-use-jointed-023a37542bb246e028a6.js.map"
     ],
     "path---tags-stuff": [
       "path---tags-stuff-077a31247ed496488147.js",
