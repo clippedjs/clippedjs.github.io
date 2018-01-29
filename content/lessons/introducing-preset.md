@@ -25,15 +25,14 @@ Instead of an object, Clipped.js uses a function for configuration.
 
 Often we actually need to get something done before running the build tools.
 
-Maybe we need to do an API call to set the website title? 
-Maybe we want to copy some files after a task? Function makes these cases just a breeze.
+> Maybe we need to do an API call to set the website title? 
+>
+> Maybe we want to copy some files after a task?
 
-Also with plain js objects it is less secure to override. For example with arrays you cannot really be sure if the array index corresponds to the content you want.
-
-With a standard way to manipulate previous presets, it is comparatively easier in a function, since in the end a function is a transformation from its given input to the output, what makes it even more neat is that you can run function after function to keep overriding.
+With the help of [Jointed.js](/why-use-jointed), it is way easier to do configurations in function than plain object.
 
 #### `clipped` argument
-`clipped` contains the full API, and a `config` property that is an empty chainable object.
+`clipped` contains the full API, and a `config` property that is an empty jointed object.
 
 For example to use Webpack and add support for `marko`, you may add:
 
@@ -51,4 +50,4 @@ module.exports = async clipped => {
 }
 ```
 
-For more about the API of `clipped` and how to use `config` chain,  check out [API](/api#preset) and [collection-chain](/collection-chain) in later sections.
+For more about the API of `clipped` and how to use `config` joints,  check out [Jointed.js API](/jointed-api) in later sections.

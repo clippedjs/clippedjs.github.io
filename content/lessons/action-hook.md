@@ -1,6 +1,6 @@
 ---
 title: "Action hook"
-lesson: 3
+lesson: 4
 chapter: 1
 type: "lesson"
 tags:

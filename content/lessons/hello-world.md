@@ -15,7 +15,10 @@ Install `clipped` as global module
 $ npm i -g clipped
 ```
 
-Then scaffold a new project. (here we use webpack-frontend as example)
+Then scaffold a new project.
+
+> Here we use webpack-frontend as example
+
 ```bash
 $ clipped init
 
@@ -29,7 +32,10 @@ $ clipped init
  ◯ skip for now
  ```
 
-Use available actions (here we use `dev` as example)
+Use available actions
+
+> Here we use `dev` as example
+
 ```bash
 $ clipped
 
