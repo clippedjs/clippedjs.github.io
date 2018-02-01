@@ -10,7 +10,7 @@ webpackJsonp([15178676390636814000],{
 	  options: { "plugins": [] }
 	}, {
 	  plugin: __webpack_require__("./node_modules/gatsby-plugin-google-analytics/gatsby-browser.js"),
-	  options: { "plugins": [], "trackingId": "UA-82450300-1 " }
+	  options: { "plugins": [], "trackingId": "UA-108887459-2" }
 	}, {
 	  plugin: __webpack_require__("./node_modules/gatsby-plugin-nprogress/gatsby-browser.js"),
 	  options: { "plugins": [], "color": "#4573de" }
@@ -2704,4 +2704,4 @@ webpackJsonp([15178676390636814000],{
 /***/ })
 
 });
-//# sourceMappingURL=app-bc555b3e73f5289a75ae.js.map
+//# sourceMappingURL=app-2970960c32cea26f9c78.js.map
