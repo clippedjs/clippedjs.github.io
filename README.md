@@ -1,1 +1,1 @@
-## clippedjs.github.io
+# Official documentation for Clipped.js
