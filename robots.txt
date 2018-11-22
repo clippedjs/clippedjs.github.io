@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: */tags/
-Disallow: */categories/
-
-sitemap: https://clippedjs.github.io/sitemap.xml
