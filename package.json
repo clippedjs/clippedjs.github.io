@@ -24,6 +24,6 @@
     "vuepress-plugin-flowchart": "^1.4.2"
   },
   "dependencies": {
-    "core-js": "^2.5.7"
+    "core-js": "^3.0.0"
   }
 }
