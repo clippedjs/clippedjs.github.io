@@ -11,7 +11,7 @@
     "build:gh": "npm run build && gh-pages -d docs/.vuepress/dist -b master"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.23",
+    "@vuepress/plugin-back-to-top": "^1.0.3",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.23",
     "@vuepress/plugin-i18n-ui": "^1.0.0-alpha.23",
     "@vuepress/plugin-last-updated": "^1.0.0-alpha.0",
